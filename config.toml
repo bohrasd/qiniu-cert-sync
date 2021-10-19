@@ -1,0 +1,15 @@
+mode = "local" # default cluster
+
+[qn_auth]
+qiniu_access_key = ""
+qiniu_secret_key = ""
+
+[[secrets]]
+secret = "" # tls secret name
+namespace = "" # the namespace the secret live in
+common_name = [""]  # domains you want the certificate to apply to
+
+[[secrets]]
+secret = ""
+namespace = ""
+common_name = [""]
